@@ -48,7 +48,7 @@ for(iset in names(rnkg)){
 ```
 
 
-##   Re-format the output and make plots. Currently breaks if the first list (object of enrichments based on gene list) does not have all the enrichment terms (ie KEGG, Reactome etc..)
+##   Re-format the output and make plots
 
 ```
 pdat=webg.plot(geist)									##  collate webg() ouput for multiple gene sets
