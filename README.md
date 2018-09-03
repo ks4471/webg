@@ -65,6 +65,8 @@ for(ityp in names(pdat)){
 }
 
 ```
+folder containing example output https://www.dropbox.com/sh/snpmttmgjw14e5j/AAABAI8B6-VQfPv8-xwG5JJSa?dl=0
+
 
 
 # Functional database
