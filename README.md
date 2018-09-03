@@ -10,7 +10,7 @@ devtools::install_github("ks4471/addR")
 library(adds)
 ```
 
-##   WebGestalt using ORA (over-representation analysis)
+###   WebGestalt using ORA (over-representation analysis)
 
 
 Input is expected as a list of named gene sets, enrichment performed for each gene set. Example gene list available to download from dropbox https://www.dropbox.com/s/y2szo7ywloleh92/example.gene.list.Rdata?dl=0
