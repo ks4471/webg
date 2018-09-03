@@ -30,7 +30,7 @@ for(iset in names(input_gene_sets)){
 }
 ```
 
-##   WebGestalt using GSEA (rank based gene set enrichment analysis)
+###   WebGestalt using GSEA (rank based gene set enrichment analysis)
 ```
 geist=list()
 # list_gene_sets  								##  named list of character vectors (1 per gene set)
@@ -51,7 +51,7 @@ for(iset in names(rnkg)){
 ```
 
 
-##   Re-format the output and make plots
+###   Re-format the output and make plots
 
 ```
 pdat=webg.plot(geist)									##  collate webg() ouput for multiple gene sets
@@ -69,9 +69,9 @@ folder containing example output https://www.dropbox.com/sh/snpmttmgjw14e5j/AAAB
 
 
 
-# Functional database
+## Functional database
 http://www.webgestalt.org/option.php
 
-# Base R package
+## Base R package
 https://cran.r-project.org/web/packages/WebGestaltR/index.html
 
