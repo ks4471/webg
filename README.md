@@ -16,7 +16,7 @@ library(adds)
 Input is expected as a list of named gene sets, enrichment performed for each gene set. Example gene list available to download from dropbox https://www.dropbox.com/s/y2szo7ywloleh92/example.gene.list.Rdata?dl=0
 ```
 geist=list()
-input_gene_sets  									##  named list of character vectors (1 per gene set)
+Load('example.gene.list.Rdata')	  							##  named list of character vectors (1 per gene set)
 for(iset in names(input_gene_sets)){
 	lprogr(iset,names(input_gene_sets),T)						##  optional progress tracker
 	geist[[iset]]=webg(								##  main wrapper funciton to connect to "WebGestalt" server, requires "WebgestaltR" package
