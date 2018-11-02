@@ -62,6 +62,9 @@ for(ityp in names(pdat)){
 	pdf(paste0('output_path/name_geneset.',ityp,'.pdf'),height=22,width=15)		##  "gestaltheat" function is designed to auto-fit to these dimensions ()
 		gestaltheat(pdat[[ityp]])						##  plot the collated data as Heatmap
 	dev.off()
+	
+	write.file(pdat[[ityp]],file=paste0('output_path/name_geneset.',ityp,'.txt'))  ##   save plot data as .txt
+	
 }
 
 ```
