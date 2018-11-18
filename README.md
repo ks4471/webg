@@ -1,5 +1,6 @@
 
 # Functional enrichment for gene lists
+These functions are a collection of wrappers designed to streamline functional enrichment analysis for multiple gene lists. The wrappers are using the base WebGestaltR package that connects to in-browser WebGestalt tool to perform the enrichments.
 
 To run enrichment, install addR - contains all relevant functions, including dependencies
 
